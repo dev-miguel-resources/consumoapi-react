@@ -21,7 +21,7 @@ const SearchFoodDishes = () => {
             <div className="root">
                 <Grid container spacing={ 3 } justify="center">
                     <AnyFoodDishes getData={getData} />
-                    {/*<PredefinedFoodDishes getData={getData} setHits={setHits} />*/}
+                    <PredefinedFoodDishes getData={getData} setHits={setHits} />
                 </Grid>
             </div>
             { hits && <FoodDishes hits={ hits } /> }
